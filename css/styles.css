@@ -21,6 +21,41 @@ img, video {
 	display: block;
 }
 
+/* Style rules for captions */
+/* Basic Style */
+::cue {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+}
+
+/* Bold and Highlighted */
+::cue(.bold) {
+    font-family: Helvetica, bold;
+    font-size: 28px;
+    color: yellow;
+    background-color: rgba(0, 0, 128, 0.7);
+    text-shadow: 2px 2px 4px black;
+}
+
+/* Creative Style */
+::cue(.creative) {
+    font-family: "Comic Sans MS";
+    font-size: 22px;
+    color: pink;
+    background-color: lightgray;
+    border-radius: 10px;
+    outline: 1px solid black;
+}
+
+/* Minimalist Design */
+::cue(.minimalist) {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: lightgray;
+}
 
 /* Style rules for mobile viewport */
 
