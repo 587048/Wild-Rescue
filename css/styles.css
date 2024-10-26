@@ -23,7 +23,7 @@ img, video {
 
 /* Style rules for captions */
 /* Basic Style */
-::cue {
+video::cue {
     font-family: Arial, sans-serif;
     font-size: 24px;
     color: white;
@@ -32,7 +32,7 @@ img, video {
 }
 
 /* Bold and Highlighted */
-::cue(.bold) {
+video::cue(.bold) {
     font-family: Helvetica, bold;
     font-size: 28px;
     color: yellow;
@@ -41,7 +41,7 @@ img, video {
 }
 
 /* Creative Style */
-::cue(.creative) {
+video::cue(.creative) {
     font-family: "Comic Sans MS";
     font-size: 22px;
     color: pink;
@@ -51,7 +51,7 @@ img, video {
 }
 
 /* Minimalist Design */
-::cue(.minimalist) {
+video::cue(.minimalist) {
     font-family: Roboto, sans-serif;
     font-size: 20px;
     color: lightgray;
