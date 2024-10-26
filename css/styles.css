@@ -44,11 +44,11 @@ video::cue(.bold) {
 /* Creative Style */
 video::cue(.creative) {
     font-family: "Comic Sans MS";
-    font-size: 22px;
-    color: pink;
+    font-size: 26px;
+    color: green;
     background-color: lightgray;
     border-radius: 10px;
-    outline: 1px solid black;
+    outline: 2px solid white;
 }
 
 /* Minimalist Design */
